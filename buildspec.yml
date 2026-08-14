@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Static frontend - no build required"
+
+artifacts:
+  files:
+    - '**/*'
